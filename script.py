@@ -9,33 +9,34 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
     HELP_TXT = """Hey {}
 
-<b>Here Is The Help For My Commands.</b>"""
+<b>Here Is The Help Section For My Commands.</b>"""
 
-    ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: Zaute Km
-➥ Library: Pyrogram
-➥ Language: Python 𝟹
-➥ Data Base: MongoDB
-➥ Bot Server: Railway/Heroku
-➥ Build Status: v1.0.1 [ Beta ]"""
+    ABOUT_TXT = """<b>○ My name: {}
+○ 👨‍💻 Developer: <a href='https://t.me/Don_Sflix/'>Don Sflix</a>
+○ Library: Pyrogram
+○ Language: Python 𝟹
+○ Support Group: <a href='https://t.me/Sflix2kchats/'>Sflix Chats</a>
+○ Main Channel: <a href='https://t.me/Sflix2k/'>Sflix</a>
+○ Data Base: MongoDB
+○ Bot Server: Heroku
+○ Build Status: v1.0.1 [ Beta ]"""
 
     SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Phil Coulson is Not A Open Source Project
 
 <b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+• <a href='https://t.me/Don_Sflix/'>Don Sflix</a>
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+• <a href='https://t.me/Sflix2k'>Sflix</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
+• Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. IMDb should have admin privillage.
-2. Only admins can add filters in a chat.
+1. Phil Coulson should have admin privillage.
+2. Only Admins Can Add Filters In a Chat.
 3. Alert buttons have a limit of 64 characters.
 
 <b>Commands and Usage:</b>
@@ -46,15 +47,15 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- tgmoviebot support both url and alert inline buttons.
+• Phil Coulson support both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. IMDb supports buttons with any telegram media type.
+2. Phil Coulson supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/example)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -65,12 +66,12 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 1. Make me the admin of your channel if it's private.
 2. Make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+   Phil Coulson add all the files in that channel to my db."""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
-- Used to connect bot to PM for managing filters 
-- It helps to avoid spamming in groups.
+• Used to connect bot to PM for managing filters 
+• It helps to avoid spamming in groups.
 
 <b>NOTE:</b>
 1. Only admins can add a connection.
@@ -83,7 +84,7 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 
     AUTO_MANUAL_TXT = """Help: <b>Filters</b>
 
-<b>Select a filters type Below:</b>"""
+<b>Select a Filters type Below:</b>"""
 
     PASTE_TXT = """Help: <b>Paste</b>
 
@@ -94,7 +95,7 @@ Paste some texts or documents on a website!
 • /paste [reply] - paste the replied text on Pasty
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Phil Coulson should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -106,7 +107,7 @@ Do as you wish with telegra.ph module!
 • /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Phil Coulson should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -120,7 +121,7 @@ Get information about something!
 • /json - get the json details of a message.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Phil Coulson should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -132,9 +133,9 @@ Translate texts to a specific language!
 • /tr [language code][reply] - translate replied message to specific language.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Phil Coulson should have admin privillage.
 • These commands works on both pm and group.
-• IMDb can translate texts to 200+ languages."""
+• Phil Coulson can translate texts to 200+ languages."""
 
     SEARCH_TXT = """Help: <b>IMDb</b>
 
@@ -145,19 +146,19 @@ Search many things without leaving telegram!
 • /search  - get the film information from various sources.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Phil Coulson should have admin privillage.
 • More search tools can be found on inline.
 • Those commands works on both pm and group."""
 
     PURGE_TXT = """Help: <b>Purge</b>
 
-Need to delete lots of messages? That's what purges are for!
+Need to delete lots of messages? That's what purges are For!
 
 <b>Commands and Usage:</b>
 • /purge - delete all messages from the replied to message, to the current message.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Phil Coulson should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
 
@@ -179,14 +180,14 @@ This module allows you to do that easily, by exposing some common actions, so ev
 -> <code>/tmute @username 2h</code>
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Phil Coulson should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
 
     ADMIN_TXT = """Help: <b>Admin Mods</b>
 
 <b>NOTE:</b>
-This module only works for my admins
+This module only works for my admins Only
 
 <b>Commands and Usage:</b>
 • /logs - to get the rescent errors.
@@ -209,7 +210,7 @@ This module only works for my admins
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
-__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
+__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Main Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
@@ -223,7 +224,7 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}"""
 
-    ZOMBIES_TXT = """Help: <b>Zombies</b>
+    ZOMBIES_TXT = """Help: <b>Kick</b>
 
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
 
