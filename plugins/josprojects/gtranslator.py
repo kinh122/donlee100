@@ -32,12 +32,12 @@ async def left(client,message):
                                 [
                                     [
                                         InlineKeyboardButton(
-                                            "language codes", url="https://cloud.google.com/translate/docs/languages"
+                                            "Language Codes", url="https://cloud.google.com/translate/docs/languages"
                                         )
                                     ],
 				    [
                                         InlineKeyboardButton(
-                                            "✗ close the translate ✗", callback_data="close_data"
+                                            "Close", callback_data="close_data"
                                         )
                                     ],
                                 ]
