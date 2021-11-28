@@ -18,11 +18,8 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('updates', url='https://t.me/josprojects')
-            ],
-            [
-                InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                InlineKeyboardButton('Close ✗', callback_data="close_data"),
+                InlineKeyboardButton('Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('Close', callback_data="close_data"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -38,17 +35,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('About', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Search Movies', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Close', callback_data='close_data')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
-            ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
+            InlineKeyboardButton("✨Join Our Group✨",url='https://t.me/Sflix2kchats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -68,13 +63,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "Join Official Channel", url=invite_link.invite_link
+                    "Join Our Main Channel", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again 👈 Tap me 🥰", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🔄 Try Again 🔄 ", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text=Script.FORCESUB_TXT,
@@ -85,17 +80,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add me to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('About', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Search Movies', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Close', callback_data='close_data')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
-            ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
+            InlineKeyboardButton("✨Join Our Group✨",url='https://t.me/Sflix2kchats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -224,12 +217,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="✓ Yes", callback_data="autofilter_delete"
+                        text="Yes", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="Cancel ✗", callback_data="close_data"
+                        text="Cancel", callback_data="close_data"
                     )
                 ],
             ]
