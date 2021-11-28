@@ -70,7 +70,7 @@ async def addconnection(client,message):
                     quote=True
                 )
         else:
-            await message.reply_text("Add me as an admin in group", quote=True)
+            await message.reply_text("Add Me As An Admin In Your Group", quote=True)
     except Exception as e:
         logger.exception(e)
         await message.reply_text('Some error occured! Try again later.', quote=True)
@@ -100,9 +100,9 @@ async def deleteconnection(client,message):
 
         delcon = await delete_connection(str(userid), str(group_id))
         if delcon:
-            await message.reply_text("Successfully disconnected from this chat", quote=True)
+            await message.reply_text("Successfully Disconnected From This Chat", quote=True)
         else:
-            await message.reply_text("This chat isn't connected to me!\nDo /connect to connect.", quote=True)
+            await message.reply_text("This chat isn't connected To Me ☹️!\nDo /connect to connect.", quote=True)
 
 
 
