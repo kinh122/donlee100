@@ -12,11 +12,11 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 <b>Here Is The Help Section For My Commands.</b>"""
 
     ABOUT_TXT = """<b>○ My name: {}
-○ 👨‍💻 Developer: <a href='https://t.me/Don_Sflix/'>Don Sflix</a>
+○ 👨‍💻 Developer: <a href='https://t.me/@Hari12357/'>HAREESH M</a>
 ○ Library: Pyrogram
 ○ Language: Python 𝟹
-○ Support Group: <a href='https://t.me/Sflix2kchats/'>Sflix Chats</a>
-○ Main Channel: <a href='https://t.me/Sflix2k/'>Sflix</a>
+○ Support Group: <a href='https://t.me//'></a>
+○ Main Channel: <a href='https://t'></a>
 ○ Data Base: MongoDB
 ○ Bot Server: Heroku
 ○ Build Status: v1.0.1 [ Beta ]"""
@@ -25,10 +25,10 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 Phil Coulson is Not A Open Source Project
 
 <b>DEVS:</b>
-• <a href='https://t.me/Don_Sflix/'>Don Sflix</a>
+• <a href='https://t.me/@Hari12357/'>HAREESH.M</a>
 
 <b>SUPPORT GROUP</b>
-• <a href='https://t.me/Sflix2k'>Sflix</a>"""
+• <a href='https://t.me/S'>S</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
